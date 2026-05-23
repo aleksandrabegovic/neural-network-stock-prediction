@@ -22,6 +22,12 @@ U projektu su korišćeni podaci o finansijskim vestima i istorijskim cenama akc
 
 Finansijske vesti preuzete su iz Kaggle skupa podataka, dok su istorijski podaci o cenama akcija preuzeti korišćenjem biblioteke yfinance.
 
+Zbog ograničenja veličine GitHub repozitorijuma, obrađeni skupovi podataka nalaze se na Google Drive-u:
+
+https://drive.google.com/drive/folders/1qTZZoD7rzb419hRqnB5aUqOzpeW41jSh?usp=drive_link
+
+Folder sadrži CSV datoteke za sve kompanije iz grupe Magnificent 7 korišćene u ovom projektu.
+
 ### Struktura podataka
 
 Skup podataka sadrži:
