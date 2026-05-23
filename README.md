@@ -106,7 +106,7 @@ Tokom treniranja praćena je vrednost funkcije greške radi procene uspešnosti 
 
 U okviru projekta analiziran je uticaj različitih ulaznih atributa na performanse modela. Posebna pažnja posvećena je poređenju modela koji koristi kombinaciju sentiment karakteristika i istorijskih prinosa akcija sa modelom koji koristi isključivo sentiment karakteristike finansijskih vesti.
 
-Rezultati su pokazali da model koji koristi samo sentiment karakteristike ostvaruje tačnost od 50,59%, dok model koji uključuje i istorijske prinose postiže znatno bolje rezultate. Ovakvo poređenje ukazuje da istorijski tržišni podaci imaju značajan doprinos uspešnosti predikcije.
+Rezultati su pokazali da model koji koristi samo sentiment karakteristike ostvaruje tačnost od 50,47%, dok model koji uključuje i istorijske prinose postiže znatno bolje rezultate. Ovakvo poređenje ukazuje da istorijski tržišni podaci imaju značajan doprinos uspešnosti predikcije.
 
 Tokom razvoja modela analizirani su i različiti skupovi ulaznih atributa, uključujući sentiment score, sentiment kategorije, pokretne proseke sentimenta, broj vesti i istorijske prinose akcija. Na osnovu dobijenih rezultata odabran je skup atributa koji je ostvario najbolje performanse na test skupu podataka.
 
@@ -121,7 +121,7 @@ Model za predikciju kretanja akcija dva dana unapred ostvario je tačnost od 65,
 
 Model za predikciju kretanja akcija tri dana unapred ostvario je tačnost od 55,63%.
 
-Dodatno je testiran model koji koristi samo sentiment karakteristike finansijskih vesti, bez istorijskih prinosa akcija. Ovaj model ostvario je tačnost od 50,59%.
+Dodatno je testiran model koji koristi samo sentiment karakteristike finansijskih vesti, bez istorijskih prinosa akcija. Ovaj model ostvario je tačnost od 50,47%.
 
 ## 7. Diskusija
 
@@ -129,7 +129,7 @@ Rezultati istraživanja pokazuju da kombinacija sentiment karakteristika finansi
 
 Pad performansi sa povećanjem vremenskog horizonta predikcije je očekivan, jer na buduće kretanje akcija utiče veliki broj faktora koji nisu obuhvaćeni modelom. Dobijeni rezultati ukazuju da su korišćeni atributi najkorisniji za predikciju neposrednih tržišnih reakcija.
 
-Posebno značajan rezultat predstavlja poređenje modela koji koristi sentiment karakteristike i istorijske prinose sa modelom zasnovanim isključivo na sentimentu. Model koji koristi samo sentiment ostvario je tačnost od 50,59%, dok je uključivanjem istorijskih prinosa tačnost povećana na 82,62% za predikciju jedan dan unapred.
+Posebno značajan rezultat predstavlja poređenje modela koji koristi sentiment karakteristike i istorijske prinose sa modelom zasnovanim isključivo na sentimentu. Model koji koristi samo sentiment ostvario je tačnost od 50,47%, dok je uključivanjem istorijskih prinosa tačnost povećana na 82,62% za predikciju jedan dan unapred.
 
 Na osnovu dobijenih rezultata može se zaključiti da istorijski tržišni podaci imaju značajnu ulogu u procesu predikcije i da njihova kombinacija sa sentiment informacijama daje znatno bolje rezultate od korišćenja samo jednog izvora informacija.
 
